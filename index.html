@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Include Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  
+  <title>My Colorful Page</title>
+</head>
+
+<body class="bg-gray-900 text-white">
+  <div class="container mx-auto">
+    <h1 class="text-4xl font-bold mt-8 text-center">Hello, Tailwind CSS!</h1>
+    
+    <div class="flex justify-center">
+      <div class="w-1/2 rounded overflow-hidden shadow-lg mt-8 bg-blue-900">
+        <div class="aspect-w-16 aspect-h-9">
+          <iframe class="aspect-video" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="bg-blue-800 text-center py-4">
+          <h2 class="text-white font-bold text-2xl">Colorful Section</h2>
+        </div>
+        <div class="p-4">
+          <p class="text-gray-300">This section has a colorful background, a video, and a centered heading.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="flex mt-8">
+      <div class="w-1/2 bg-blue-700 p-4">
+        <h2 class="text-2xl font-bold mb-4">Left Column</h2>
+        <p class="text-gray-300">This is the left column with a blue background.</p>
+      </div>
+      <div class="w-1/2 bg-blue-600 p-4">
+        <h2 class="text-2xl font-bold mb-4">Right Column</h2>
+        <p class="text-gray-300">This is the right column with a blue background.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
